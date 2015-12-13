@@ -15,43 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Vector.h">
+    <ClCompile Include="DrawingTorus.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Mathclass.h">
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Matrix.h">
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Position.h">
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Quaternion.h">
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Transform.h">
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
       <Filter>소스 파일</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\DrawingTorus.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Matrix.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Position.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Quaternion.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Transform.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Vector.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClInclude Include="Mathclass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

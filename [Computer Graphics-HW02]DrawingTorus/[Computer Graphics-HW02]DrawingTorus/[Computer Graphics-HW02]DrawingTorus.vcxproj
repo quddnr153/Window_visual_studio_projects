@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DrawingTorus.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mathclass.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A6E9124C-BC2B-4CB0-B1F6-35A1E06465A2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,22 +161,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Mathclass.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Matrix.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Position.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Quaternion.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Transform.h" />
-    <ClInclude Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Vector.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\DrawingTorus.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Matrix.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Position.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Quaternion.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Transform.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2010\Projects\[HW02]DrawingTorus\Vector.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
